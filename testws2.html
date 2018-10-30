@@ -13,7 +13,10 @@
 
         ws.onopen = function () {
             if (ws) {
-                ws.send('{"msgType":"chat","roomId":1984839}');
+                ws.send('{"msgType":"joinRoom","roomId":5146671}');
+                setInterval(function () {
+                    ws.send('{"msgType":"heartLive"}');
+                },40*1000)
             }// 1997783
         };
         ws.onmessage = function (evt) {

@@ -16,7 +16,7 @@ class Room
     private $heartTime;
     private static $giftInfo;
 
-    public function __construct($roomId, $heartTime = 45)
+    public function __construct($roomId, $heartTime = 30)
     {
         $this->roomId = $roomId;
         $this->heartTime = $heartTime;

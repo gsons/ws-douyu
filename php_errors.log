@@ -1,0 +1,82 @@
+[30-Oct-2018 23:41:08 PRC] PHP Notice:  Use of undefined constant HEARTBEAT_TIME - assumed 'HEARTBEAT_TIME' in D:\github\ws-douyu\test.php on line 98
+[30-Oct-2018 23:41:08 PRC] PHP Stack trace:
+[30-Oct-2018 23:41:08 PRC] PHP   1. {main}() D:\github\ws-douyu\test.php:0
+[30-Oct-2018 23:41:08 PRC] PHP   2. Workerman\Worker::runAll() D:\github\ws-douyu\test.php:104
+[30-Oct-2018 23:41:08 PRC] PHP   3. Workerman\Worker::forkWorkers() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:507
+[30-Oct-2018 23:41:08 PRC] PHP   4. Workerman\Worker::forkWorkersForWindows() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1258
+[30-Oct-2018 23:41:08 PRC] PHP   5. Workerman\Worker->run() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1315
+[30-Oct-2018 23:41:08 PRC] PHP   6. Workerman\Events\Select->loop() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:2322
+[30-Oct-2018 23:41:08 PRC] PHP   7. Workerman\Events\Select->tick() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:283
+[30-Oct-2018 23:41:08 PRC] PHP   8. call_user_func_array:{D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:41:08 PRC] PHP   9. {closure:D:\github\ws-douyu\test.php:89-102}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:42:30 PRC] PHP Notice:  Use of undefined constant HEARTBEAT_TIME - assumed 'HEARTBEAT_TIME' in D:\github\ws-douyu\test.php on line 98
+[30-Oct-2018 23:42:30 PRC] PHP Stack trace:
+[30-Oct-2018 23:42:30 PRC] PHP   1. {main}() D:\github\ws-douyu\test.php:0
+[30-Oct-2018 23:42:30 PRC] PHP   2. Workerman\Worker::runAll() D:\github\ws-douyu\test.php:104
+[30-Oct-2018 23:42:30 PRC] PHP   3. Workerman\Worker::forkWorkers() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:507
+[30-Oct-2018 23:42:30 PRC] PHP   4. Workerman\Worker::forkWorkersForWindows() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1258
+[30-Oct-2018 23:42:30 PRC] PHP   5. Workerman\Worker->run() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1315
+[30-Oct-2018 23:42:30 PRC] PHP   6. Workerman\Events\Select->loop() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:2322
+[30-Oct-2018 23:42:30 PRC] PHP   7. Workerman\Events\Select->tick() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:283
+[30-Oct-2018 23:42:30 PRC] PHP   8. call_user_func_array:{D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:42:30 PRC] PHP   9. {closure:D:\github\ws-douyu\test.php:89-102}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:55:12 PRC] PHP Notice:  Undefined property: Workerman\Connection\TcpConnection::$roomId in D:\github\ws-douyu\test.php on line 78
+[30-Oct-2018 23:55:12 PRC] PHP Stack trace:
+[30-Oct-2018 23:55:12 PRC] PHP   1. {main}() D:\github\ws-douyu\test.php:0
+[30-Oct-2018 23:55:12 PRC] PHP   2. Workerman\Worker::runAll() D:\github\ws-douyu\test.php:107
+[30-Oct-2018 23:55:12 PRC] PHP   3. Workerman\Worker::forkWorkers() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:507
+[30-Oct-2018 23:55:12 PRC] PHP   4. Workerman\Worker::forkWorkersForWindows() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1258
+[30-Oct-2018 23:55:12 PRC] PHP   5. Workerman\Worker->run() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1315
+[30-Oct-2018 23:55:12 PRC] PHP   6. Workerman\Events\Select->loop() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:2322
+[30-Oct-2018 23:55:12 PRC] PHP   7. Workerman\Events\Select->tick() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:283
+[30-Oct-2018 23:55:12 PRC] PHP   8. call_user_func_array:{D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:55:12 PRC] PHP   9. {closure:D:\github\ws-douyu\test.php:92-105}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:55:12 PRC] PHP  10. Workerman\Connection\TcpConnection->close() D:\github\ws-douyu\test.php:102
+[30-Oct-2018 23:55:12 PRC] PHP  11. Workerman\Connection\TcpConnection->destroy() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:829
+[30-Oct-2018 23:55:12 PRC] PHP  12. call_user_func:{D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
+[30-Oct-2018 23:55:12 PRC] PHP  13. {closure:D:\github\ws-douyu\test.php:72-81}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
+[30-Oct-2018 23:55:12 PRC] PHP Notice:  Undefined property: Workerman\Connection\TcpConnection::$uid in D:\github\ws-douyu\test.php on line 78
+[30-Oct-2018 23:55:12 PRC] PHP Stack trace:
+[30-Oct-2018 23:55:12 PRC] PHP   1. {main}() D:\github\ws-douyu\test.php:0
+[30-Oct-2018 23:55:12 PRC] PHP   2. Workerman\Worker::runAll() D:\github\ws-douyu\test.php:107
+[30-Oct-2018 23:55:12 PRC] PHP   3. Workerman\Worker::forkWorkers() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:507
+[30-Oct-2018 23:55:12 PRC] PHP   4. Workerman\Worker::forkWorkersForWindows() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1258
+[30-Oct-2018 23:55:12 PRC] PHP   5. Workerman\Worker->run() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1315
+[30-Oct-2018 23:55:12 PRC] PHP   6. Workerman\Events\Select->loop() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:2322
+[30-Oct-2018 23:55:12 PRC] PHP   7. Workerman\Events\Select->tick() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:283
+[30-Oct-2018 23:55:12 PRC] PHP   8. call_user_func_array:{D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:55:12 PRC] PHP   9. {closure:D:\github\ws-douyu\test.php:92-105}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:55:12 PRC] PHP  10. Workerman\Connection\TcpConnection->close() D:\github\ws-douyu\test.php:102
+[30-Oct-2018 23:55:12 PRC] PHP  11. Workerman\Connection\TcpConnection->destroy() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:829
+[30-Oct-2018 23:55:12 PRC] PHP  12. call_user_func:{D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
+[30-Oct-2018 23:55:12 PRC] PHP  13. {closure:D:\github\ws-douyu\test.php:72-81}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
+[30-Oct-2018 23:57:46 PRC] PHP Notice:  Undefined property: Workerman\Connection\TcpConnection::$roomId in D:\github\ws-douyu\test.php on line 84
+[30-Oct-2018 23:57:46 PRC] PHP Stack trace:
+[30-Oct-2018 23:57:46 PRC] PHP   1. {main}() D:\github\ws-douyu\test.php:0
+[30-Oct-2018 23:57:46 PRC] PHP   2. Workerman\Worker::runAll() D:\github\ws-douyu\test.php:113
+[30-Oct-2018 23:57:46 PRC] PHP   3. Workerman\Worker::forkWorkers() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:507
+[30-Oct-2018 23:57:46 PRC] PHP   4. Workerman\Worker::forkWorkersForWindows() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1258
+[30-Oct-2018 23:57:46 PRC] PHP   5. Workerman\Worker->run() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1315
+[30-Oct-2018 23:57:46 PRC] PHP   6. Workerman\Events\Select->loop() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:2322
+[30-Oct-2018 23:57:46 PRC] PHP   7. Workerman\Events\Select->tick() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:283
+[30-Oct-2018 23:57:46 PRC] PHP   8. call_user_func_array:{D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:57:46 PRC] PHP   9. {closure:D:\github\ws-douyu\test.php:98-111}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:57:46 PRC] PHP  10. Workerman\Connection\TcpConnection->close() D:\github\ws-douyu\test.php:108
+[30-Oct-2018 23:57:46 PRC] PHP  11. Workerman\Connection\TcpConnection->destroy() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:829
+[30-Oct-2018 23:57:46 PRC] PHP  12. call_user_func:{D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
+[30-Oct-2018 23:57:46 PRC] PHP  13. {closure:D:\github\ws-douyu\test.php:78-87}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
+[30-Oct-2018 23:57:46 PRC] PHP Notice:  Undefined property: Workerman\Connection\TcpConnection::$uid in D:\github\ws-douyu\test.php on line 84
+[30-Oct-2018 23:57:46 PRC] PHP Stack trace:
+[30-Oct-2018 23:57:46 PRC] PHP   1. {main}() D:\github\ws-douyu\test.php:0
+[30-Oct-2018 23:57:46 PRC] PHP   2. Workerman\Worker::runAll() D:\github\ws-douyu\test.php:113
+[30-Oct-2018 23:57:46 PRC] PHP   3. Workerman\Worker::forkWorkers() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:507
+[30-Oct-2018 23:57:46 PRC] PHP   4. Workerman\Worker::forkWorkersForWindows() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1258
+[30-Oct-2018 23:57:46 PRC] PHP   5. Workerman\Worker->run() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:1315
+[30-Oct-2018 23:57:46 PRC] PHP   6. Workerman\Events\Select->loop() D:\github\ws-douyu\vendor\workerman\workerman\Worker.php:2322
+[30-Oct-2018 23:57:46 PRC] PHP   7. Workerman\Events\Select->tick() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:283
+[30-Oct-2018 23:57:46 PRC] PHP   8. call_user_func_array:{D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:57:46 PRC] PHP   9. {closure:D:\github\ws-douyu\test.php:98-111}() D:\github\ws-douyu\vendor\workerman\workerman\Events\Select.php:239
+[30-Oct-2018 23:57:46 PRC] PHP  10. Workerman\Connection\TcpConnection->close() D:\github\ws-douyu\test.php:108
+[30-Oct-2018 23:57:46 PRC] PHP  11. Workerman\Connection\TcpConnection->destroy() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:829
+[30-Oct-2018 23:57:46 PRC] PHP  12. call_user_func:{D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
+[30-Oct-2018 23:57:46 PRC] PHP  13. {closure:D:\github\ws-douyu\test.php:78-87}() D:\github\ws-douyu\vendor\workerman\workerman\Connection\TcpConnection.php:924
