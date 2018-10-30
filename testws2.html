@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>测试socket</title>
+
+
+    <script type="text/javascript">
+
+
+        // 打开一个 web socket
+        var ws = new WebSocket("ws://localhost:2346");
+
+        ws.onopen = function () {
+            if (ws) {
+                ws.send('{"msgType":"chat","roomId":1984839}');
+            }// 1997783
+        };
+        ws.onmessage = function (evt) {
+            var msg = JSON.parse(evt.data);
+            switch (msg.type) {
+                case 'chat':
+                    console.log(`[${msg.from.name}]:${msg.content}`)
+                    break
+                case 'gift':
+                    console.log(`[${msg.from.name}]->赠送${msg.count}个${msg.name}`)
+                    break
+                case 'yuwan':
+                    console.log(`[${msg.from.name}]->赠送${msg.count}个${msg.name}`)
+                    break
+                case 'deserve':
+                    console.log(`[${msg.from.name}]->赠送${msg.count}个${msg.name}`)
+                    break
+            }
+        };
+
+        ws.onclose = function () {
+            ws = null;
+            console.log("连接已关闭...");
+        };
+
+
+    </script>
+
+</head>
+<body>
+</body>
+</html>
+
+
